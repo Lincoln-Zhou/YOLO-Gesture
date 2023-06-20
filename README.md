@@ -15,7 +15,8 @@ This program is CPU-only, a CUDA-enabled environment or GPU is not necessary.
 We provide a demo script for inferencing on video:
 
 ```commandline
-python scripts/demo.py --source 0 --save True
+cd scripts/
+python demo.py --source 0 --save True
 ```
 `--source` argument can be 0 (webcam) or path to a video file;
 
