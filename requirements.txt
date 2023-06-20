@@ -1,0 +1,8 @@
+numpy~=1.23.5
+onnx~=1.14.0
+onnxruntime~=1.15.0
+opencv-contrib-python~=4.5.5.62
+scikit-learn~=1.2.2
+torch~=1.13.1
+torchvision~=0.14.1
+tqdm~=4.65.0
