@@ -63,12 +63,9 @@ def single_img_inference(session, img):
         
         output = session.run(output_names, {input_name: resized})[0]
     else:   # RKNN session
-        # session.eval_perf(inputs=[resized], is_print=True)
-        # exit()
         output = session.inference(inputs=[resized], data_format='nchw')[0]
 
     model_output = torch.Tensor(output)
-    # print(model_output.flatten()[:10])
 
     predicted = postprocess(model_output, torch.Tensor(resized), ori_img)
     

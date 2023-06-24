@@ -8,7 +8,7 @@ ORDER = [
     [5, 9, 13, 17],
 ]
 
-ONNX_YOLO_MODEL = "../models/yolov8n-pose-relu-s.onnx"
+ONNX_YOLO_MODEL = "../models/yolov8n-pose-relu.onnx"
 ONNX_MLP_MODEL = "../models/handpose_cls.onnx"
 
 OK_FORMAT = '\033[92m'
