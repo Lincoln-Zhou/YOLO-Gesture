@@ -50,6 +50,7 @@ Please note that our current support for RKNN framework is extremely limited. Se
 |  RK3566   |       ✅        |       ❗        |
 |  RV1106   |       ❌        |       ❌        |
 | Simulator |       ✅        |       ❗        |
+
 ✅: Fully functional
 
 ❗: It would run, but with high precision loss
